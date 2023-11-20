@@ -1,0 +1,21 @@
+<annotation verified="no">
+  <folder>S1B_IW_SLC__1SDV_20210324T212401_20210324T212435_026162_031F43_45FC_Cal_deb_mat_ML_RGB</folder>
+  <filename>hard_neg_000978.tif</filename>
+  <path>D:\sentinel\patch\S1B_IW_SLC__1SDV_20210324T212401_20210324T212435_026162_031F43_45FC_Cal_deb_mat_ML_RGB\S1B_IW_SLC__1SDV_20210324T212401_20210324T212435_026162_031F43_45FC_Cal_deb_mat_ML_RGB_4_7_192_1520.png</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>256</width>
+    <height>256</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <type>bndbox</type>
+    <name>ship</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox><xmin>230</xmin><ymin>122</ymin><xmax>247</xmax><ymax>141</ymax></bndbox></object>
+<object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>230</xmin><ymin>185</ymin><xmax>235</xmax><ymax>189</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>58</xmin><ymin>95</ymin><xmax>65</xmax><ymax>101</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>103</xmin><ymin>217</ymin><xmax>107</xmax><ymax>220</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>208</xmin><ymin>165</ymin><xmax>213</xmax><ymax>170</ymax></bndbox></object></annotation>

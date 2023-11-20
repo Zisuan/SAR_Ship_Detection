@@ -1,0 +1,27 @@
+<annotation verified="no">
+  <folder>HorizontalBox</folder>
+  <filename>000187</filename>
+  <path>D:\sentinel\annotations\HorizontalBox\000187.png</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>256</width>
+    <height>256</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <type>bndbox</type>
+    <name>ship</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>55</xmin>
+      <ymin>125</ymin>
+      <xmax>64</xmax>
+      <ymax>143</ymax>
+    </bndbox>
+  </object>
+<object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>247</xmin><ymin>217</ymin><xmax>250</xmax><ymax>223</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>186</xmin><ymin>219</ymin><xmax>190</xmax><ymax>224</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>213</xmin><ymin>221</ymin><xmax>223</xmax><ymax>231</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>231</xmin><ymin>249</ymin><xmax>236</xmax><ymax>254</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>243</xmin><ymin>242</ymin><xmax>247</xmax><ymax>248</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>191</xmin><ymin>241</ymin><xmax>194</xmax><ymax>244</ymax></bndbox></object></annotation>

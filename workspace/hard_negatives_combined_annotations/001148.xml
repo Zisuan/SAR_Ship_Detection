@@ -1,0 +1,21 @@
+<annotation verified="no">
+  <folder>S1B_IW_SLC__1SDV_20210405T155621_20210405T155647_026334_0324AD_F5F4_Cal_deb_mat_ML_RGB</folder>
+  <filename>S1B_IW_SLC__1SDV_20210405T155621_20210405T155647_026334_0324AD_F5F4_Cal_deb_mat_ML_RGB_0_8_768_384</filename>
+  <path>D:\sentinel\patch\S1B_IW_SLC__1SDV_20210405T155621_20210405T155647_026334_0324AD_F5F4_Cal_deb_mat_ML_RGB\S1B_IW_SLC__1SDV_20210405T155621_20210405T155647_026334_0324AD_F5F4_Cal_deb_mat_ML_RGB_0_8_768_384.png</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>256</width>
+    <height>256</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <type>bndbox</type>
+    <name>ship</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox><xmin>16</xmin><ymin>194</ymin><xmax>34</xmax><ymax>221</ymax></bndbox></object>
+<object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>249</xmin><ymin>233</ymin><xmax>253</xmax><ymax>239</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>161</xmin><ymin>113</ymin><xmax>166</xmax><ymax>117</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>62</xmin><ymin>187</ymin><xmax>67</xmax><ymax>191</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>202</xmin><ymin>184</ymin><xmax>207</xmax><ymax>188</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>97</xmin><ymin>108</ymin><xmax>102</xmax><ymax>113</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>81</xmin><ymin>107</ymin><xmax>86</xmax><ymax>112</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>194</xmin><ymin>173</ymin><xmax>198</xmax><ymax>177</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>249</xmin><ymin>155</ymin><xmax>253</xmax><ymax>161</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>24</xmin><ymin>236</ymin><xmax>26</xmax><ymax>239</ymax></bndbox></object></annotation>

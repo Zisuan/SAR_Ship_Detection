@@ -1,0 +1,1 @@
+<annotation><filename>001061</filename><folder>hard_negatives</folder><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>100</xmin><ymin>63</ymin><xmax>105</xmax><ymax>68</ymax></bndbox></object></annotation>

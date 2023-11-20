@@ -1,0 +1,27 @@
+<annotation verified="no">
+  <folder>HorizontalBox</folder>
+  <filename>hard_neg_001171.tif</filename>
+  <path>D:\sentinel\annotations\HorizontalBox\001171.png</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>256</width>
+    <height>256</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <type>bndbox</type>
+    <name>ship</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>62</xmin>
+      <ymin>214</ymin>
+      <xmax>75</xmax>
+      <ymax>235</ymax>
+    </bndbox>
+  </object>
+<object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>168</xmin><ymin>19</ymin><xmax>177</xmax><ymax>27</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>203</xmin><ymin>149</ymin><xmax>209</xmax><ymax>156</ymax></bndbox></object><object><name>non_ship</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>241</xmin><ymin>253</ymin><xmax>249</xmax><ymax>255</ymax></bndbox></object></annotation>
