@@ -78,8 +78,8 @@ def get_dicts(img_dir, annotation_dir):
 
         objs = []
         for member in root.findall('object'):
-            class_name = member.find('name').text
-            category_id = class_names.index(class_name)
+            #class_name = member.find('name').text
+            category_id = 0
             bndbox = member.find('bndbox')
             xmin = int(bndbox.find('xmin').text)
             xmax = int(bndbox.find('xmax').text)
@@ -94,18 +94,17 @@ def get_dicts(img_dir, annotation_dir):
         record["annotations"] = objs
         dataset_dicts.append(record)
     return dataset_dicts
-'''
+
 for d in ["train", "test"]:
     DatasetCatalog.register("sar_ships_" + d, lambda d=d: get_dicts(f'originalTIF/{d}', f'annotations/HorizontalBox/{d}'))
-    MetadataCatalog.get("sar_ships_" + d).set(thing_classes=["ship","non_ship"])
-'''
-
+    MetadataCatalog.get("sar_ships_" + d).set(thing_classes=["ship"])
+    
 # Update the class names to include 'non_ship'
-class_names = ["ship", "non_ship"]
-thing_classes = class_names  # This should be a list of strings, representing each class
+#class_names = ["ship", "non_ship"]
+#thing_classes = class_names  # This should be a list of strings, representing each class
 
-DatasetCatalog.register("sar_ships_train", lambda: get_dicts("combined_dataset/images", "combined_dataset/annotations"))
-MetadataCatalog.get("sar_ships_train").set(thing_classes=thing_classes)
+#DatasetCatalog.register("sar_ships_train", lambda: get_dicts("combined_dataset/images", "combined_dataset/annotations"))
+#MetadataCatalog.get("sar_ships_train").set(thing_classes=thing_classes)
 
 # Visualize the dataset to confirm everything is correct 
 from detectron2.utils.visualizer import Visualizer
@@ -167,33 +166,34 @@ from detectron2 import model_zoo
 from detectron2.modeling import build_model
 from detectron2.evaluation import COCOEvaluator, inference_on_dataset
 
+
 def setup(cfg):
 
     cfg.MODEL.DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-    cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"))
+    cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml"))
     cfg.DATASETS.TRAIN = ("sar_ships_train",)
-    #cfg.DATASETS.TEST = ("sar_ships_test",)
+    cfg.DATASETS.TEST = ("sar_ships_test",)
     cfg.DATALOADER.NUM_WORKERS = 4
 
     # Let training initialize from model zoo
-    cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml")  
+    cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml")  
     cfg.SOLVER.IMS_PER_BATCH = 2
     cfg.SOLVER.BASE_LR = 0.0001  # pick a good LR
     cfg.SOLVER.MAX_ITER = 100000    # number of iterations
     cfg.MODEL.ROI_HEADS.BATCH_SIZE_PER_IMAGE = 512   
-    cfg.MODEL.ROI_HEADS.NUM_CLASSES = len(class_names)  
+    cfg.MODEL.ROI_HEADS.NUM_CLASSES = 1  
     
     # Adjust pixel mean and std for 4-channel images
     cfg.MODEL.PIXEL_MEAN = [ 0.00941263, -0.00114559,  0.00115459,  0.10023721]  
     cfg.MODEL.PIXEL_STD = [1.81057896, 1.49695959 ,2.00576686, 7.44893589]               
 
     # Specify the output directory
-    cfg.OUTPUT_DIR = "model5"
+    cfg.OUTPUT_DIR = "model_last"
     if not os.path.exists( cfg.OUTPUT_DIR):
         os.makedirs(cfg.OUTPUT_DIR)
 
     print(cfg)
-    with open("config4.yaml", "w") as f:
+    with open("config_last.yaml", "w") as f:
         f.write(cfg.dump())
 
     return cfg
@@ -244,7 +244,6 @@ class CustomTrainer(DefaultTrainer):
 
         return model
     
-    @classmethod
     def build_train_loader(cls, cfg):
         return build_detection_train_loader(cfg, mapper=CustomDatasetMapper(cfg))
     
@@ -264,17 +263,38 @@ class CustomTrainer(DefaultTrainer):
 
         return hooks_without_tensorboard
     
+    def __init__(self, cfg):
+        super().__init__(cfg)
+        self._data_loader_iter = iter(self.data_loader)
+
+    def run_step(self):
+        assert self.model.training, "[CustomTrainer] model was changed to eval mode!"
+        data = next(self._data_loader_iter)
+        loss_dict = self.model(data)
+        self.optimizer.zero_grad()
+        losses = sum(loss_dict.values())
+        losses.backward()
+        
+        # Gradient clipping and checks
+        torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=2.0)
+        for name, param in self.model.named_parameters():
+            if param.grad is not None:
+                if torch.isnan(param.grad).any() or torch.isinf(param.grad).any():
+                    print(f"NaN or Inf found in gradients of {name}")
+
+        self.optimizer.step()
+    
 def main():
     cfg = get_cfg()
     cfg = setup(cfg)
     trainer = CustomTrainer(cfg)
-    #resume_dir = "model4\last_checkpoint" # get the last resume checkpoint file path
+    #resume_dir = "model6\last_checkpoint" # get the last resume checkpoint file path
     #trainer.resume_or_load(resume_dir)# pass the resume_dir path here 
     trainer.resume_or_load(resume=False)
     trainer.train()
-    #evaluator = COCOEvaluator("sar_ships_test", cfg, False, output_dir=cfg.OUTPUT_DIR)
-    #val_loader = build_detection_test_loader(cfg, "sar_ships_test")
-    #inference_on_dataset(trainer.model, val_loader, evaluator)
+    evaluator = COCOEvaluator("sar_ships_test", cfg, False, output_dir=cfg.OUTPUT_DIR)
+    val_loader = build_detection_test_loader(cfg, "sar_ships_test")
+    inference_on_dataset(trainer.model, val_loader, evaluator)
 
 if __name__ == '__main__':
     main()

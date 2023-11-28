@@ -1,0 +1,12 @@
+<annotation>
+  <filename>001217.png</filename>
+  <folder></folder>
+  <source>
+    <sourceImage></sourceImage>
+    <sourceAnnotation>Datumaro</sourceAnnotation>
+  </source>
+  <imagesize>
+    <nrows>256</nrows>
+    <ncols>256</ncols>
+  </imagesize>
+</annotation>

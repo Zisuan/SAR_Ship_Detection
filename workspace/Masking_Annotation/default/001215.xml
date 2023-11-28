@@ -1,0 +1,35 @@
+<annotation>
+  <filename>001215.png</filename>
+  <folder></folder>
+  <source>
+    <sourceImage></sourceImage>
+    <sourceAnnotation>Datumaro</sourceAnnotation>
+  </source>
+  <imagesize>
+    <nrows>256</nrows>
+    <ncols>256</ncols>
+  </imagesize>
+  <object>
+    <name>Land</name>
+    <deleted>0</deleted>
+    <verified>0</verified>
+    <occluded>no</occluded>
+    <date></date>
+    <id>0</id>
+    <parts>
+      <hasparts></hasparts>
+      <ispartof></ispartof>
+    </parts>
+    <segm>
+      <mask>001215_mask_0.png</mask>
+      <box>
+        <xmin>84.00</xmin>
+        <ymin>70.00</ymin>
+        <xmax>255.00</xmax>
+        <ymax>255.00</ymax>
+      </box>
+      <username></username>
+    </segm>
+    <attributes></attributes>
+  </object>
+</annotation>
