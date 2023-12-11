@@ -10,6 +10,7 @@ from matplotlib import pyplot as plt
 from PIL import Image
 import numpy as np
 import os
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
 import cv2
 import xml.etree.ElementTree as ET
 import torch
@@ -88,6 +89,8 @@ model.eval()
 metadata = MetadataCatalog.get(cfg.DATASETS.TRAIN[0])
 metadata.set(thing_classes=["ship"])
 
+'''
+## For hard negative data mining
 def calculate_iou(box1, box2):
   
     # Determine the coordinates of the intersection rectangle
@@ -111,7 +114,7 @@ def calculate_iou(box1, box2):
     iou = intersection_area / float(box1_area + box2_area - intersection_area)
 
     return iou
-'''
+
 def create_xml_file(filename, boxes, folder):
     root = ET.Element("annotation")
     ET.SubElement(root, "filename").text = filename
@@ -155,7 +158,7 @@ def visualize_mask_on_image(image, mask, color=[0, 255, 0], alpha=0.8):
     # Ensure both are of the same data type
     combined = cv2.addWeighted(overlay.astype(np.uint8), alpha, image_rgb, 1 - alpha, 0)
 
-    # If you want to maintain the 4th channel as is, you can concatenate it back
+    # Concatenating to maintain the 4th channel as it is 
     if image.shape[2] == 4:
         combined = np.concatenate((combined, image[:, :, 3:4]), axis=2)
 
@@ -230,7 +233,7 @@ for tif_filename in os.listdir(tif_inference_folder):
             mask = load_mask_from_png(mask_file_path)
             combined_mask = np.logical_or(combined_mask, mask)
 
-        # Now you have a combined mask which you can apply to the image
+        # Combined mask to apply on image 
         if combined_mask is not None:
             # Filter out detections that overlap with the masked area
             keep_indices = []
@@ -281,12 +284,12 @@ for tif_filename in os.listdir(tif_inference_folder):
                     cv2.rectangle(png_image, (xmin, ymin), (xmax, ymax), (0, 255, 0), 1)  # Green rectangle for each bounding box
 
                 '''
+                ## For hard negative mining
                 false_positives = []
 
                 # Extract the predicted bounding boxes and scores
                 predicted_boxes = outputs["instances"].pred_boxes.tensor.cpu().numpy()
         
-                
                 # Compare each predicted box with the ground truth
                 for pred_box in predicted_boxes:
                     max_iou = 0.0
@@ -318,9 +321,9 @@ for tif_filename in os.listdir(tif_inference_folder):
                 axes[1].set_title("Corresponding PNG image")
                 axes[1].axis('off')
 
-                #plot_filename = os.path.join(plot_folder, tif_filename.replace('.tif', '_comparison.png'))
-                #plt.savefig(plot_filename, bbox_inches='tight')
-                #plt.close()
+                plot_filename = os.path.join(plot_folder, tif_filename.replace('.tif', '_comparison.png'))
+                plt.savefig(plot_filename, bbox_inches='tight')
+                plt.close()
                 
                 plt.tight_layout()
                 plt.show()
