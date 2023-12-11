@@ -11,6 +11,9 @@ Ship Detection on Synthetic Aperture Radar (SAR) Images using amplitude and phas
 - **Colour Depth**: 8 bits/channel (PNG), original 16-bit images (TIFF) also included.
 
 ## Repository Structure
-
+- `Amplitude_Phase/`: Contains data and file informations used for amplitude and phase data detection
+- `RGB/`: Contains data and file informations used for RGB data detection.
 
 ## Installation and Usage
+
+Instructions on how to set up the environment and run the scripts will be provided soon.
