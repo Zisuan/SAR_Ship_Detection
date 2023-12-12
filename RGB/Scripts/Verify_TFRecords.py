@@ -41,5 +41,5 @@ def decode_tfrecord(tfrecord_path):
 
 
 if __name__ == '__main__':
-    tfrecord_path = 'workspace/training_demo/TFRecords' 
+    tfrecord_path = 'workspace/training_demo/TFRecords' # Replace with your TFRecords path
     decode_tfrecord(tfrecord_path)

@@ -65,6 +65,7 @@ def plot_annotations_for_single_image(img_path, xml_path):
     plt.show()
 
 
+# Replace with your own Directory Path or File Path, use accordingly for single image or a folder of images.
 # Directory paths
 #IMAGE_DIR = "A_Dual-polarimetric_SAR_Ship_Detection_Dataset-main/PNGImages/train"
 #ANNOTATION_DIR = "A_Dual-polarimetric_SAR_Ship_Detection_Dataset-main/annotations/HorizontalBox/train"

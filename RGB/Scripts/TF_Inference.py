@@ -22,29 +22,19 @@ from object_detection.builders import model_builder
 
 
 def load_image_into_numpy_array(path):
-    """Load an image from file into a numpy array.
-    Puts image into numpy array to feed into tensorflow graph.
-    Args:
-        path: the file path to the image
-    Returns:
-        numpy array with shape (img_height, img_width, 3)
-    """
-    #img_data = tf.io.gfile.GFile(path, 'rb').read()
-    #image = Image.open(BytesIO(img_data))
-    
-    #(im_width, im_height) = image.size
+   
     image = Image.open(path)
 
     image = image.resize((512, 512), Image.LANCZOS)
-    #return np.array(image).reshape((im_height, im_width, 3)).astype(np.uint8)
+    
     return np.array(image)
 
-category_index = label_map_util.create_category_index_from_labelmap('workspace/training_demo/ship_label_map.pbtxt', use_display_name=True)
+category_index = label_map_util.create_category_index_from_labelmap('workspace/training_demo/ship_label_map.pbtxt', use_display_name=True) # Replace with your label map path
 
 tf.keras.backend.clear_session()
-detect_fn = tf.saved_model.load('workspace/training_demo/exported_models/ship_model/saved_model')
+detect_fn = tf.saved_model.load('workspace/training_demo/exported_models/ship_model/saved_model') # Replace with your trained model path
 
-IMAGE_DIR = 'A_Dual-polarimetric_SAR_Ship_Detection_Dataset-main/PNGImages/test/'
+IMAGE_DIR = 'A_Dual-polarimetric_SAR_Ship_Detection_Dataset-main/PNGImages/test/' # Replace with your dataset path
 
 # Get all image paths from the directory
 all_image_paths = glob.glob(os.path.join(IMAGE_DIR, '*.png'))
@@ -57,7 +47,6 @@ random_image_paths = random.sample(all_image_paths, num_random_images)
 
 for image_path in random_image_paths:
 
-#image_path = "A_Dual-polarimetric_SAR_Ship_Detection_Dataset-main/PNGImages/train/000604.png"
     print('Running inference for {}... '.format(image_path), end='')
 
     image_np = load_image_into_numpy_array(image_path)
@@ -138,6 +127,7 @@ for image_path in random_image_paths:
     combined_image.paste(original_image_pil, (0, 0))
     combined_image.paste(detected_image_pil, (original_image_pil.width + GAP_WIDTH, 0))
     combined_image.show()
+    
 '''
 # Create an output directory if it doesn't exist
 output_dir = 'output_images'

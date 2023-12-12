@@ -53,9 +53,9 @@ def modify_model_conv1(model):
 
 # Sentinel Hub Configuration
 config = SHConfig()
-config.instance_id = '657f9fba-b10d-49ac-9c16-3b00766d71ad'  # Replace with your Sentinel Hub instance ID
-config.sh_client_id = '331d6059-8e44-48c1-9f36-95b6cb76a1dc'  # Replace with your client ID
-config.sh_client_secret = '68Jk1Um1NM1RDMo56TYyrgYXermLsasGip4guJNt'  # Replace with your client secret
+config.instance_id = 'xxxx'  # Replace with your Sentinel Hub instance ID
+config.sh_client_id = 'xxxx'  # Replace with your client ID
+config.sh_client_secret = 'xxxx'  # Replace with your client secret
 
 # Ensure you have correctly set your credentials
 if config.instance_id == '' or config.sh_client_id == '' or config.sh_client_secret == '':

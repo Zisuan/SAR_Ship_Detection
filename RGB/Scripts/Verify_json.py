@@ -43,7 +43,7 @@ def visualize_json_on_image_batch(json_paths, image_folder):
 
 
 if __name__ == '__main__':
-    folder_path = "SSDD_coco"
+    folder_path = "SSDD_coco" # Replace with your dataset path
     json_files = [file for file in os.listdir(folder_path) if file.endswith('.json')]
 
     for i in range(0, len(json_files), 10):
