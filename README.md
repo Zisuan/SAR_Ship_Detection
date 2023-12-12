@@ -37,4 +37,5 @@ Various scripts needed for training can be found the [Script Folder](https://git
 After training, Run Inference Test on custom dataset using trained model weights using [TF_Inference.py](https://github.com/Zisuan/SAR_Ship_Detection/blob/main/RGB/Scripts/TF_Inference.py).   
 
 **Files and Directory Paths may differ based on Personal Folder Structure** 
+**Install any other required dependencies as needed**
 
