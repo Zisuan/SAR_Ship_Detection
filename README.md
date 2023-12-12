@@ -36,5 +36,5 @@ After Installation, Download Pre-Trained Model from [model zoo](https://github.c
 Various scripts needed for training can be found the [Script Folder](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/RGB/Scripts).   
 After training, Run Inference Test on custom dataset using trained model weights using [TF_Inference.py](https://github.com/Zisuan/SAR_Ship_Detection/blob/main/RGB/Scripts/TF_Inference.py).   
 
-** Files and Directory Paths may differ based on Personal Folder Structure ** 
+**Files and Directory Paths may differ based on Personal Folder Structure** 
 
