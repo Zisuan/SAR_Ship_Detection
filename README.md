@@ -18,21 +18,21 @@ Ship Detection on Synthetic Aperture Radar (SAR) Images using amplitude and phas
 - **Colour Depth**: .jpeg format, color depth of 24 bits.
 
 ## Repository Structure
-- [Amplitude_Phase](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/Amplitude_Phase): Contains data and file informations used for amplitude and phase data detection
-- [RGB](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/RGB): Contains data and file informations used for RGB data detection.
+- [Amplitude_Phase](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/Amplitude_Phase): Contains data and file informations used for amplitude and phase data detection  
+- [RGB](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/RGB): Contains data and file informations used for RGB data detection.  
 The scripts used in the project are located in the Scripts folders found in each folder.  
-Datasets and annotations utilized in the project are located in other folders.
+Datasets and annotations utilized in the project are located in other folders.  
 
 ## Installation and Usage
-For Amplitude and Phase data detection, Detectron2 models are used.
-[Detectron2 Installation Guide](https://detectron2.readthedocs.io/en/latest/tutorials/install.html)
-After Installation, Pick a model and its config file from [model zoo](https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md#coco-person-keypoint-detection-baselines-with-keypoint-r-cnn) and train a custom model using [custom_model.py](https://github.com/Zisuan/SAR_Ship_Detection/blob/main/Amplitude_Phase/Scripts/custom_model.py).
+For Amplitude and Phase data detection, Detectron2 models are used.  
+[Detectron2 Installation Guide](https://detectron2.readthedocs.io/en/latest/tutorials/install.html)  
+After Installation, Pick a model and its config file from [model zoo](https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md#coco-person-keypoint-detection-baselines-with-keypoint-r-cnn) and train a custom model using [custom_model.py](https://github.com/Zisuan/SAR_Ship_Detection/blob/main/Amplitude_Phase/Scripts/custom_model.py).  
 Run Inference Test on custom dataset using trained model weights using [Inference.py](https://github.com/Zisuan/SAR_Ship_Detection/blob/main/Amplitude_Phase/Scripts/Inference.py)  
-For Real-time SAR Data detection, Set up a [Sentinel Account](https://www.sentinel-hub.com/) and [install SentinelHub](https://sentinelhub-py.readthedocs.io/en/latest/install.html) to use SentinelHub API to extract data, Run [Ship_Detection.py](https://github.com/Zisuan/SAR_Ship_Detection/blob/main/Amplitude_Phase/Scripts/Ship_Detection.py) using your own SH Configuration.
-
-For RGB data detection, Tensorflow models are used.
-[Tensorflow Installation Guide](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html)
-After Installation, Download Pre-Trained Model from [model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) and Configure the Training Pipeline to train a model.
-Various scripts needed for training can be found the [Script Folder](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/RGB/Scripts)
-Run Inference Test on custom dataset using trained model weights using [TF_Inference.py](https://github.com/Zisuan/SAR_Ship_Detection/blob/main/RGB/Scripts/TF_Inference.py)
+For Real-time SAR Data detection, Set up a [Sentinel Account](https://www.sentinel-hub.com/) and [install SentinelHub](https://sentinelhub-py.readthedocs.io/en/latest/install.html) to use SentinelHub API to extract data, Run [Ship_Detection.py](https://github.com/Zisuan/SAR_Ship_Detection/blob/main/Amplitude_Phase/Scripts/Ship_Detection.py) using your own SH Configuration.  
+  
+For RGB data detection, Tensorflow models are used.  
+[Tensorflow Installation Guide](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html)  
+After Installation, Download Pre-Trained Model from [model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) and Configure the Training Pipeline to train a model.  
+Various scripts needed for training can be found the [Script Folder](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/RGB/Scripts)  
+Run Inference Test on custom dataset using trained model weights using [TF_Inference.py](https://github.com/Zisuan/SAR_Ship_Detection/blob/main/RGB/Scripts/TF_Inference.py)  
 
