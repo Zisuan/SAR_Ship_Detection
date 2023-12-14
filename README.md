@@ -40,6 +40,7 @@ For Real-time SAR Data detection, Set up a [Sentinel Account](https://www.sentin
 For RGB data detection, Tensorflow models are used.  
 [Tensorflow Installation Guide](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html)  
 After Installation, Download Pre-Trained Model from [model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) and Configure the Training Pipeline to train a model.  
+Instructions on how to set up for training can be found in [Tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html).  
 Various scripts needed for training can be found the [Script Folder](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/RGB/Scripts).   
 After training, Run Inference Test on custom dataset using trained model weights using [TF_Inference.py](https://github.com/Zisuan/SAR_Ship_Detection/blob/main/RGB/Scripts/TF_Inference.py).   
 
