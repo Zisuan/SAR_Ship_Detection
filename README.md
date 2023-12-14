@@ -26,7 +26,7 @@ grey scale.
 ## Repository Structure
 - [Amplitude_Phase](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/Amplitude_Phase): Contains data and file informations used for amplitude and phase data detection  
 - [RGB](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/RGB): Contains data and file informations used for RGB data detection.
-- [Classification](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/Classification): Contains data and file informations used for Ships Classification.
+- [Classification](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/Classification): Contains data and file informations used for Ships Classification.  
 The scripts used in the project are located in the Scripts folders found in each folder.  
 Datasets and annotations utilized in the project are located in other folders.  
 
