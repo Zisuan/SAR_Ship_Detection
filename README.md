@@ -18,7 +18,7 @@ Ship Detection on Synthetic Aperture Radar (SAR) Images using amplitude and phas
 - **Colour Depth**: .jpeg format, color depth of 24 bits.  
 
 ### OpenSARShip 
-- **Content**: Sentienl-1 interferometric wide (IW) ground range detected (GRD) products and Sentienl-1 interferometric wide (IW) single look complex (SLC) products.
+- **Content**: Sentinel-1 interferometric wide (IW) ground range detected (GRD) products and Sentinel-1 interferometric wide (IW) single look complex (SLC) products.
 - **Format**:  For each Sentinel-1 SAR image, four subfolders provide four formats of ship chips - Original data, calibrated data, visualized data in pseudo-color, and visualized data in
 grey scale.
 - **Polarizations**:  VV and VH.  
