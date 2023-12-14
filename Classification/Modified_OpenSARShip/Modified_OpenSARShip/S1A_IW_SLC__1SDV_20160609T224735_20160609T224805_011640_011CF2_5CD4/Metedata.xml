@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata>
+  <Abstracted_Metadata>
+    <Orbit_State_Vectors>
+      <orbit_vector1>
+        <attrib name="time" value="09-JUN-2016 22:46:29.417920" type="51" />
+        <attrib name="x_pos" value="-2334782.176635" type="31" />
+        <attrib name="y_pos" value="6643733.723708" type="31" />
+        <attrib name="z_pos" value="691613.53144" type="31" />
+        <attrib name="x_vel" value="1252.767909" type="31" />
+        <attrib name="y_vel" value="1220.106678" type="31" />
+        <attrib name="z_vel" value="-7394.035896" type="31" />
+      </orbit_vector1>
+      <orbit_vector2>
+        <attrib name="time" value="09-JUN-2016 22:46:39.417920" type="51" />
+        <attrib name="x_pos" value="-2322115.143818" type="31" />
+        <attrib name="y_pos" value="6655552.913263" type="31" />
+        <attrib name="z_pos" value="617635.502577" type="31" />
+        <attrib name="x_vel" value="1280.596303" type="31" />
+        <attrib name="y_vel" value="1143.702716" type="31" />
+        <attrib name="z_vel" value="-7401.430571" type="31" />
+      </orbit_vector2>
+      <orbit_vector3>
+        <attrib name="time" value="09-JUN-2016 22:46:49.417921" type="51" />
+        <attrib name="x_pos" value="-2309171.103439" type="31" />
+        <attrib name="y_pos" value="6666607.222729" type="31" />
+        <attrib name="z_pos" value="543587.70738" type="31" />
+        <attrib name="x_vel" value="1308.168859" type="31" />
+        <attrib name="y_vel" value="1067.13217" type="31" />
+        <attrib name="z_vel" value="-7407.989035" type="31" />
+      </orbit_vector3>
+      <orbit_vector4>
+        <attrib name="time" value="09-JUN-2016 22:46:59.417920" type="51" />
+        <attrib name="x_pos" value="-2295952.630673" type="31" />
+        <attrib name="y_pos" value="6676895.031547" type="31" />
+        <attrib name="z_pos" value="469478.511591" type="31" />
+        <attrib name="x_vel" value="1335.482226" type="31" />
+        <attrib name="y_vel" value="990.4041" type="31" />
+        <attrib name="z_vel" value="-7413.71058" type="31" />
+      </orbit_vector4>
+      <orbit_vector5>
+        <attrib name="time" value="09-JUN-2016 22:47:09.417920" type="51" />
+        <attrib name="x_pos" value="-2282462.333992" type="31" />
+        <attrib name="y_pos" value="6686414.80988" type="31" />
+        <attrib name="z_pos" value="395316.287546" type="31" />
+        <attrib name="x_vel" value="1362.533096" type="31" />
+        <attrib name="y_vel" value="913.52759" type="31" />
+        <attrib name="z_vel" value="-7418.594593" type="31" />
+      </orbit_vector5>
+      <orbit_vector6>
+        <attrib name="time" value="09-JUN-2016 22:47:19.417920" type="51" />
+        <attrib name="x_pos" value="-2268702.854738" type="31" />
+        <attrib name="y_pos" value="6695165.11883" type="31" />
+        <attrib name="z_pos" value="321109.413199" type="31" />
+        <attrib name="x_vel" value="1389.318202" type="31" />
+        <attrib name="y_vel" value="836.511744" type="31" />
+        <attrib name="z_vel" value="-7422.640564" type="31" />
+      </orbit_vector6>
+      <orbit_vector7>
+        <attrib name="time" value="09-JUN-2016 22:47:29.417921" type="51" />
+        <attrib name="x_pos" value="-2254676.866689" type="31" />
+        <attrib name="y_pos" value="6703144.610658" type="31" />
+        <attrib name="z_pos" value="246866.271142" type="31" />
+        <attrib name="x_vel" value="1415.834323" type="31" />
+        <attrib name="y_vel" value="759.365688" type="31" />
+        <attrib name="z_vel" value="-7425.848075" type="31" />
+      </orbit_vector7>
+      <orbit_vector8>
+        <attrib name="time" value="09-JUN-2016 22:47:39.417920" type="51" />
+        <attrib name="x_pos" value="-2240387.07562" type="31" />
+        <attrib name="y_pos" value="6710352.028988" type="31" />
+        <attrib name="z_pos" value="172595.247624" type="31" />
+        <attrib name="x_vel" value="1442.07828" type="31" />
+        <attrib name="y_vel" value="682.098569" type="31" />
+        <attrib name="z_vel" value="-7428.216812" type="31" />
+      </orbit_vector8>
+      <orbit_vector9>
+        <attrib name="time" value="09-JUN-2016 22:47:49.417920" type="51" />
+        <attrib name="x_pos" value="-2225836.218861" type="31" />
+        <attrib name="y_pos" value="6716786.208998" type="31" />
+        <attrib name="z_pos" value="98304.731563" type="31" />
+        <attrib name="x_vel" value="1468.046942" type="31" />
+        <attrib name="y_vel" value="604.719551" type="31" />
+        <attrib name="z_vel" value="-7429.746556" type="31" />
+      </orbit_vector9>
+      <orbit_vector10>
+        <attrib name="time" value="09-JUN-2016 22:47:59.417920" type="51" />
+        <attrib name="x_pos" value="-2211027.064853" type="31" />
+        <attrib name="y_pos" value="6722446.077592" type="31" />
+        <attrib name="z_pos" value="24003.113564" type="31" />
+        <attrib name="x_vel" value="1493.737219" type="31" />
+        <attrib name="y_vel" value="527.237816" type="31" />
+        <attrib name="z_vel" value="-7430.437188" type="31" />
+      </orbit_vector10>
+      <orbit_vector11>
+        <attrib name="time" value="09-JUN-2016 22:48:09.417921" type="51" />
+        <attrib name="x_pos" value="-2195962.412697" type="31" />
+        <attrib name="y_pos" value="6727330.653567" type="31" />
+        <attrib name="z_pos" value="-50301.215068" type="31" />
+        <attrib name="x_vel" value="1519.146068" type="31" />
+        <attrib name="y_vel" value="449.662561" type="31" />
+        <attrib name="z_vel" value="-7430.288687" type="31" />
+      </orbit_vector11>
+      <orbit_vector12>
+        <attrib name="time" value="09-JUN-2016 22:48:19.417920" type="51" />
+        <attrib name="x_pos" value="-2180645.091695" type="31" />
+        <attrib name="y_pos" value="6731439.04776" type="31" />
+        <attrib name="z_pos" value="-124599.863317" type="31" />
+        <attrib name="x_vel" value="1544.270492" type="31" />
+        <attrib name="y_vel" value="372.002998" type="31" />
+        <attrib name="z_vel" value="-7429.301132" type="31" />
+      </orbit_vector12>
+      <orbit_vector13>
+        <attrib name="time" value="09-JUN-2016 22:48:29.417920" type="51" />
+        <attrib name="x_pos" value="-2165077.960893" type="31" />
+        <attrib name="y_pos" value="6734770.4632" type="31" />
+        <attrib name="z_pos" value="-198884.441443" type="31" />
+        <attrib name="x_vel" value="1569.10754" type="31" />
+        <attrib name="y_vel" value="294.26835" type="31" />
+        <attrib name="z_vel" value="-7427.4747" type="31" />
+      </orbit_vector13>
+      <orbit_vector14>
+        <attrib name="time" value="09-JUN-2016 22:48:39.417920" type="51" />
+        <attrib name="x_pos" value="-2149263.908613" type="31" />
+        <attrib name="y_pos" value="6737324.195227" type="31" />
+        <attrib name="z_pos" value="-273146.561971" type="31" />
+        <attrib name="x_vel" value="1593.654308" type="31" />
+        <attrib name="y_vel" value="216.467856" type="31" />
+        <attrib name="z_vel" value="-7424.809667" type="31" />
+      </orbit_vector14>
+      <orbit_vector15>
+        <attrib name="time" value="09-JUN-2016 22:48:49.417921" type="51" />
+        <attrib name="x_pos" value="-2133205.851987" type="31" />
+        <attrib name="y_pos" value="6739099.631606" type="31" />
+        <attrib name="z_pos" value="-347377.840678" type="31" />
+        <attrib name="x_vel" value="1617.907938" type="31" />
+        <attrib name="y_vel" value="138.610761" type="31" />
+        <attrib name="z_vel" value="-7421.306408" type="31" />
+      </orbit_vector15>
+      <orbit_vector16>
+        <attrib name="time" value="09-JUN-2016 22:48:59.417920" type="51" />
+        <attrib name="x_pos" value="-2116906.736483" type="31" />
+        <attrib name="y_pos" value="6740096.252616" type="31" />
+        <attrib name="z_pos" value="-421569.89759" type="31" />
+        <attrib name="x_vel" value="1641.86562" type="31" />
+        <attrib name="y_vel" value="60.706324" type="31" />
+        <attrib name="z_vel" value="-7416.965395" type="31" />
+      </orbit_vector16>
+      <orbit_vector17>
+        <attrib name="time" value="09-JUN-2016 22:49:09.417920" type="51" />
+        <attrib name="x_pos" value="-2100369.535427" type="31" />
+        <attrib name="y_pos" value="6740313.631153" type="31" />
+        <attrib name="z_pos" value="-495714.357966" type="31" />
+        <attrib name="x_vel" value="1665.524592" type="31" />
+        <attrib name="y_vel" value="-17.23619" type="31" />
+        <attrib name="z_vel" value="-7411.787201" type="31" />
+      </orbit_vector17>
+    </Orbit_State_Vectors>
+    <SRGR_Coefficients />
+    <Doppler_Centroid_Coefficients>
+      <dop_coef_list.1>
+        <coefficient.1>
+          <attrib name="dop_coef" value="4.481519" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.1>
+        <coefficient.2>
+          <attrib name="dop_coef" value="1310.675" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.2>
+        <coefficient.3>
+          <attrib name="dop_coef" value="-404114.9" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.3>
+        <attrib name="zero_doppler_time" value="09-JUN-2016 22:47:38.404563" type="51" />
+        <attrib name="slant_range_time" value="5333096.844811922" type="31" unit="ns" desc="Slant Range Time" />
+      </dop_coef_list.1>
+      <dop_coef_list.2>
+        <coefficient.1>
+          <attrib name="dop_coef" value="3.820102" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.1>
+        <coefficient.2>
+          <attrib name="dop_coef" value="1317.034" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.2>
+        <coefficient.3>
+          <attrib name="dop_coef" value="-395224.2" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.3>
+        <attrib name="zero_doppler_time" value="09-JUN-2016 22:47:41.162840" type="51" />
+        <attrib name="slant_range_time" value="5333096.844811922" type="31" unit="ns" desc="Slant Range Time" />
+      </dop_coef_list.2>
+      <dop_coef_list.3>
+        <coefficient.1>
+          <attrib name="dop_coef" value="3.410949" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.1>
+        <coefficient.2>
+          <attrib name="dop_coef" value="1085.889" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.2>
+        <coefficient.3>
+          <attrib name="dop_coef" value="-330075.0" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.3>
+        <attrib name="zero_doppler_time" value="09-JUN-2016 22:47:43.921117" type="51" />
+        <attrib name="slant_range_time" value="5333096.844811922" type="31" unit="ns" desc="Slant Range Time" />
+      </dop_coef_list.3>
+      <dop_coef_list.4>
+        <coefficient.1>
+          <attrib name="dop_coef" value="3.058127" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.1>
+        <coefficient.2>
+          <attrib name="dop_coef" value="824.9871" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.2>
+        <coefficient.3>
+          <attrib name="dop_coef" value="-258275.0" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.3>
+        <attrib name="zero_doppler_time" value="09-JUN-2016 22:47:46.679394" type="51" />
+        <attrib name="slant_range_time" value="5333096.844811922" type="31" unit="ns" desc="Slant Range Time" />
+      </dop_coef_list.4>
+      <dop_coef_list.5>
+        <coefficient.1>
+          <attrib name="dop_coef" value="2.968617" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.1>
+        <coefficient.2>
+          <attrib name="dop_coef" value="488.7596" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.2>
+        <coefficient.3>
+          <attrib name="dop_coef" value="-171537.2" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.3>
+        <attrib name="zero_doppler_time" value="09-JUN-2016 22:47:49.437671" type="51" />
+        <attrib name="slant_range_time" value="5333096.844811922" type="31" unit="ns" desc="Slant Range Time" />
+      </dop_coef_list.5>
+      <dop_coef_list.6>
+        <coefficient.1>
+          <attrib name="dop_coef" value="2.953493" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.1>
+        <coefficient.2>
+          <attrib name="dop_coef" value="367.5145" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.2>
+        <coefficient.3>
+          <attrib name="dop_coef" value="-140473.7" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.3>
+        <attrib name="zero_doppler_time" value="09-JUN-2016 22:47:52.195947" type="51" />
+        <attrib name="slant_range_time" value="5333096.844811922" type="31" unit="ns" desc="Slant Range Time" />
+      </dop_coef_list.6>
+      <dop_coef_list.7>
+        <coefficient.1>
+          <attrib name="dop_coef" value="2.397157" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.1>
+        <coefficient.2>
+          <attrib name="dop_coef" value="330.3295" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.2>
+        <coefficient.3>
+          <attrib name="dop_coef" value="-122166.9" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.3>
+        <attrib name="zero_doppler_time" value="09-JUN-2016 22:47:54.954224" type="51" />
+        <attrib name="slant_range_time" value="5333896.10475604" type="31" unit="ns" desc="Slant Range Time" />
+      </dop_coef_list.7>
+      <dop_coef_list.8>
+        <coefficient.1>
+          <attrib name="dop_coef" value="1.573382" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.1>
+        <coefficient.2>
+          <attrib name="dop_coef" value="218.7083" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.2>
+        <coefficient.3>
+          <attrib name="dop_coef" value="-80640.3" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.3>
+        <attrib name="zero_doppler_time" value="09-JUN-2016 22:47:57.712501" type="51" />
+        <attrib name="slant_range_time" value="5333896.10475604" type="31" unit="ns" desc="Slant Range Time" />
+      </dop_coef_list.8>
+      <dop_coef_list.9>
+        <coefficient.1>
+          <attrib name="dop_coef" value="0.8044611" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.1>
+        <coefficient.2>
+          <attrib name="dop_coef" value="123.4682" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.2>
+        <coefficient.3>
+          <attrib name="dop_coef" value="-44198.39" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.3>
+        <attrib name="zero_doppler_time" value="09-JUN-2016 22:48:00.470778" type="51" />
+        <attrib name="slant_range_time" value="5333896.10475604" type="31" unit="ns" desc="Slant Range Time" />
+      </dop_coef_list.9>
+      <dop_coef_list.10>
+        <coefficient.1>
+          <attrib name="dop_coef" value="-0.4730185" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.1>
+        <coefficient.2>
+          <attrib name="dop_coef" value="-166.9627" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.2>
+        <coefficient.3>
+          <attrib name="dop_coef" value="49929.34" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.3>
+        <attrib name="zero_doppler_time" value="09-JUN-2016 22:48:03.229055" type="51" />
+        <attrib name="slant_range_time" value="5333896.10475604" type="31" unit="ns" desc="Slant Range Time" />
+      </dop_coef_list.10>
+      <dop_coef_list.11>
+        <coefficient.1>
+          <attrib name="dop_coef" value="-0.855566" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.1>
+        <coefficient.2>
+          <attrib name="dop_coef" value="-344.363" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.2>
+        <coefficient.3>
+          <attrib name="dop_coef" value="101078.2" type="31" unit="" desc="Doppler Centroid Coefficient" />
+        </coefficient.3>
+        <attrib name="zero_doppler_time" value="09-JUN-2016 22:48:05.987332" type="51" />
+        <attrib name="slant_range_time" value="5333896.10475604" type="31" unit="ns" desc="Slant Range Time" />
+      </dop_coef_list.11>
+    </Doppler_Centroid_Coefficients>
+    <attrib name="PRODUCT" value="S1A_IW_SLC__1SDV_20160609T224735_20160609T224805_011640_011CF2_5CD4" type="41" unit="" desc="Product name" />
+    <attrib name="PRODUCT_TYPE" value="SLC" type="41" unit="" desc="Product type" />
+    <attrib name="SPH_DESCRIPTOR" value="Sentinel-1 IW Level-1 SLC Product" type="41" unit="" desc="Description" />
+    <attrib name="MISSION" value="SENTINEL-1A" type="41" unit="" desc="Satellite mission" />
+    <attrib name="ACQUISITION_MODE" value="IW" type="41" unit="" desc="Acquisition mode" />
+    <attrib name="antenna_pointing" value="right" type="41" unit="" desc="Right or left facing" />
+    <attrib name="BEAMS" value="-" type="41" unit="" desc="Beams used" />
+    <attrib name="SWATH" value="-" type="41" unit="" desc="Swath name" />
+    <attrib name="PROC_TIME" value="10-JUN-2016 08:36:45.618127" type="51" unit="utc" desc="Processed time" />
+    <attrib name="Processing_system_identifier" value="ESA Sentinel-1 IPF 002.71" type="41" unit="" desc="Processing system identifier" />
+    <attrib name="orbit_cycle" value="81" type="12" unit="" desc="Cycle" />
+    <attrib name="REL_ORBIT" value="18" type="12" unit="" desc="Track" />
+    <attrib name="ABS_ORBIT" value="11640" type="12" unit="" desc="Orbit" />
+    <attrib name="STATE_VECTOR_TIME" value="09-JUN-2016 22:46:29.417920" type="51" unit="utc" desc="Time of orbit state vector" />
+    <attrib name="VECTOR_SOURCE" value="-" type="41" unit="" desc="State vector source" />
+    <attrib name="incidence_near" value="99999.0" type="31" unit="deg" desc="" />
+    <attrib name="incidence_far" value="99999.0" type="31" unit="deg" desc="" />
+    <attrib name="slice_num" value="1" type="12" unit="" desc="Slice number" />
+    <attrib name="data_take_id" value="72946" type="12" unit="" desc="Data take identifier" />
+    <attrib name="first_line_time" value="09-JUN-2016 22:47:35.890686" type="51" unit="utc" desc="First zero doppler azimuth time" />
+    <attrib name="last_line_time" value="09-JUN-2016 22:48:05.698308" type="51" unit="utc" desc="Last zero doppler azimuth time" />
+    <attrib name="first_near_lat" value="2.306772470474243" type="31" unit="deg" desc="" />
+    <attrib name="first_near_long" value="105.2571029663086" type="31" unit="deg" desc="" />
+    <attrib name="first_far_lat" value="2.7748823165893555" type="31" unit="deg" desc="" />
+    <attrib name="first_far_long" value="103.0426254272461" type="31" unit="deg" desc="" />
+    <attrib name="last_near_lat" value="0.5036487579345703" type="31" unit="deg" desc="" />
+    <attrib name="last_near_long" value="104.88103485107422" type="31" unit="deg" desc="" />
+    <attrib name="last_far_lat" value="0.9773192405700684" type="31" unit="deg" desc="" />
+    <attrib name="last_far_long" value="102.66822814941406" type="31" unit="deg" desc="" />
+    <attrib name="PASS" value="DESCENDING" type="41" unit="" desc="ASCENDING or DESCENDING" />
+    <attrib name="SAMPLE_TYPE" value="COMPLEX" type="41" unit="" desc="DETECTED or COMPLEX" />
+    <attrib name="mds1_tx_rx_polar" value="-" type="41" unit="" desc="Polarization" />
+    <attrib name="mds2_tx_rx_polar" value="-" type="41" unit="" desc="Polarization" />
+    <attrib name="mds3_tx_rx_polar" value="-" type="41" unit="" desc="Polarization" />
+    <attrib name="mds4_tx_rx_polar" value="-" type="41" unit="" desc="Polarization" />
+    <attrib name="polsar_data" value="0" type="20" unit="flag" desc="Polarimetric Matrix" />
+    <attrib name="algorithm" value="-" type="41" unit="" desc="Processing algorithm" />
+    <attrib name="azimuth_looks" value="1.0" type="31" unit="" desc="" />
+    <attrib name="range_looks" value="1.0" type="31" unit="" desc="" />
+    <attrib name="range_spacing" value="2.3295619999999997" type="31" unit="m" desc="Range sample spacing" />
+    <attrib name="azimuth_spacing" value="14.028621666666664" type="31" unit="m" desc="Azimuth sample spacing" />
+    <attrib name="pulse_repetition_frequency" value="1717.128973878037" type="31" unit="Hz" desc="PRF" />
+    <attrib name="radar_frequency" value="5405.000454334349" type="31" unit="MHz" desc="Radar frequency" />
+    <attrib name="line_time_interval" value="0.002055556299999998" type="31" unit="s" desc="" />
+    <attrib name="total_size" value="7899" type="22" unit="MB" desc="Total product size" />
+    <attrib name="num_output_lines" value="14501" type="22" unit="lines" desc="Raster height" />
+    <attrib name="num_samples_per_line" value="67554" type="22" unit="samples" desc="Raster width" />
+    <attrib name="subset_offset_x" value="0" type="22" unit="samples" desc="X coordinate of UL corner of subset in original image" />
+    <attrib name="subset_offset_y" value="0" type="22" unit="samples" desc="Y coordinate of UL corner of subset in original image" />
+    <attrib name="srgr_flag" value="0" type="20" unit="flag" desc="SRGR applied" />
+    <attrib name="avg_scene_height" value="1.3942806666666667" type="31" unit="m" desc="Average scene height ellipsoid" />
+    <attrib name="map_projection" value="-" type="41" unit="" desc="Map projection applied" />
+    <attrib name="is_terrain_corrected" value="0" type="20" unit="flag" desc="orthorectification applied" />
+    <attrib name="DEM" value="-" type="41" unit="" desc="Digital Elevation Model used" />
+    <attrib name="geo_ref_system" value="-" type="41" unit="" desc="geographic reference system" />
+    <attrib name="lat_pixel_res" value="99999.0" type="31" unit="deg" desc="pixel resolution in geocoded image" />
+    <attrib name="lon_pixel_res" value="99999.0" type="31" unit="deg" desc="pixel resolution in geocoded image" />
+    <attrib name="slant_range_to_first_pixel" value="799427.4128638573" type="31" unit="m" desc="Slant range to 1st data sample" />
+    <attrib name="ant_elev_corr_flag" value="0" type="20" unit="flag" desc="Antenna elevation applied" />
+    <attrib name="range_spread_comp_flag" value="0" type="20" unit="flag" desc="range spread compensation applied" />
+    <attrib name="replica_power_corr_flag" value="0" type="20" unit="flag" desc="Replica pulse power correction applied" />
+    <attrib name="abs_calibration_flag" value="0" type="20" unit="flag" desc="Product calibrated" />
+    <attrib name="calibration_factor" value="99999.0" type="31" unit="" desc="Calibration constant" />
+    <attrib name="inc_angle_comp_flag" value="0" type="20" unit="flag" desc="incidence angle compensation applied" />
+    <attrib name="ref_inc_angle" value="99999.0" type="31" unit="" desc="Reference incidence angle" />
+    <attrib name="ref_slant_range" value="99999.0" type="31" unit="" desc="Reference slant range" />
+    <attrib name="ref_slant_range_exp" value="99999.0" type="31" unit="" desc="Reference slant range exponent" />
+    <attrib name="rescaling_factor" value="99999.0" type="31" unit="" desc="Rescaling factor" />
+    <attrib name="range_sampling_rate" value="64.34523812571427" type="31" unit="MHz" desc="Range Sampling Rate" />
+    <attrib name="range_bandwidth" value="56.5" type="31" unit="MHz" desc="Bandwidth total in range" />
+    <attrib name="azimuth_bandwidth" value="327.0" type="31" unit="Hz" desc="Bandwidth total in azimuth" />
+    <attrib name="multilook_flag" value="0" type="20" unit="flag" desc="Multilook applied" />
+    <attrib name="coregistered_stack" value="0" type="20" unit="flag" desc="Coregistration applied" />
+    <attrib name="external_calibration_file" value="-" type="41" unit="" desc="External calibration file used" />
+    <attrib name="orbit_state_vector_file" value="-" type="41" unit="" desc="Orbit file used" />
+    <attrib name="metadata_version" value="6.0" type="41" unit="" desc="AbsMetadata version" />
+  </Abstracted_Metadata>
+  <tie-point-grids>
+    <latitude unit="deg" desc="">
+      <row value="2.3068304,2.3350418,2.3624418,2.3891156,2.4151306,2.4405425,2.4654157,2.4894335,2.5133593,2.5368662,2.5599859,2.5827458,2.6051593,2.6272604,2.6491067,2.6706333,2.6919,2.7129219,2.7337127,2.7542844" />
+      <row value="1.9462167,1.9744811,2.001934,2.0286608,2.054729,2.0801942,2.1051207,2.1291916,2.1531713,2.1767323,2.1999066,2.222721,2.2451897,2.2673464,2.2892492,2.310832,2.3321552,2.3532343,2.3740823,2.394712" />
+      <row value="1.5856105,1.6139286,1.641435,1.668215,1.6943369,1.7198557,1.7448361,1.76896,1.7929939,1.8166095,1.8398386,1.8627083,1.8852323,1.9074447,1.929404,1.9510432,1.9724236,1.9935598,2.0144656,2.0351532" />
+      <row value="1.2250115,1.2533836,1.2809442,1.3077781,1.333954,1.3595268,1.3845613,1.408739,1.4328277,1.4564981,1.4797823,1.5027075,1.5252874,1.5475559,1.5695714,1.5912675,1.6127049,1.6338987,1.6548624,1.6756084" />
+      <row value="0.86442125,0.89284813,0.92046314,0.9473515,0.97358185,0.99920917,1.0242984,1.0485301,1.0726738,1.0963995,1.1197394,1.1427205,1.1653564,1.1876814,1.2097538,1.231507,1.2530019,1.2742536,1.2952757,1.3160803" />
+    </latitude>
+    <longitude unit="deg" desc="">
+      <row value="105.25713,105.12422,104.99507,104.869286,104.746544,104.62659,104.509125,104.395645,104.282555,104.17139,104.062004,103.95428,103.848145,103.74344,103.63991,103.53784,103.43696,103.33719,103.23848,103.14077" />
+      <row value="105.18209,105.049194,104.92006,104.79429,104.67156,104.551636,104.4342,104.32073,104.207664,104.09652,103.98717,103.87947,103.77336,103.668686,103.56517,103.46313,103.362274,103.262535,103.16386,103.06618" />
+      <row value="105.10696,104.97407,104.84494,104.719185,104.59648,104.47656,104.35914,104.2457,104.13265,104.02153,103.91219,103.80452,103.69843,103.59378,103.49029,103.388275,103.287445,103.18774,103.08908,102.991425" />
+      <row value="105.03173,104.89884,104.76972,104.643974,104.52128,104.40137,104.28396,104.17053,104.057495,103.946396,103.837074,103.729416,103.62335,103.51872,103.41525,103.313255,103.21245,103.11276,103.01413,102.9165" />
+      <row value="104.95641,104.82352,104.6944,104.56865,104.44595,104.32606,104.20865,104.09523,103.9822,103.87112,103.76181,103.65416,103.54811,103.4435,103.34004,103.23807,103.137276,103.03761,102.938995,102.841385" />
+    </longitude>
+    <slant_range_time unit="ns" desc="">
+      <row value="5333205.5,5385688.0,5438170.5,5490653.0,5543135.5,5595618.0,5648100.5,5700583.0,5753065.5,5805548.5,5858031.0,5910513.5,5962996.0,6015478.5,6067961.0,6120443.5,6172926.0,6225408.5,6277891.0,6330373.5" />
+      <row value="5333205.5,5385688.0,5438170.5,5490653.0,5543135.5,5595618.0,5648100.5,5700583.0,5753065.5,5805548.5,5858031.0,5910513.5,5962996.0,6015478.5,6067961.0,6120443.5,6172926.0,6225408.5,6277891.0,6330373.5" />
+      <row value="5333205.5,5385688.0,5438170.5,5490653.0,5543135.5,5595618.0,5648100.5,5700583.0,5753065.5,5805548.5,5858031.0,5910513.5,5962996.0,6015478.5,6067961.0,6120443.5,6172926.0,6225408.5,6277891.0,6330373.5" />
+      <row value="5333205.5,5385688.0,5438170.5,5490653.0,5543135.5,5595618.0,5648100.5,5700583.0,5753065.5,5805548.5,5858031.0,5910513.5,5962996.0,6015478.5,6067961.0,6120443.5,6172926.0,6225408.5,6277891.0,6330373.5" />
+      <row value="5333205.5,5385688.0,5438170.5,5490653.0,5543135.5,5595618.0,5648100.5,5700583.0,5753065.5,5805548.5,5858031.0,5910513.5,5962996.0,6015478.5,6067961.0,6120443.5,6172926.0,6225408.5,6277891.0,6330373.5" />
+    </slant_range_time>
+    <incident_angle unit="deg" desc="">
+      <row value="30.83571,31.891384,32.898758,33.86244,34.786133,35.67282,36.52617,37.33069,38.124496,38.891724,39.63421,40.353516,41.050365,41.726818,42.38604,43.024643,43.645973,44.250927,44.84033,45.414936" />
+      <row value="30.828842,31.884804,32.892437,33.856354,34.780262,35.667145,36.520676,37.32535,38.119312,38.886684,39.629307,40.34874,41.045708,41.722275,42.38159,43.020294,43.64172,44.24676,44.83625,45.410942" />
+      <row value="30.82175,31.87801,32.88591,33.850067,34.774197,35.661285,36.515,37.319847,38.11397,38.881493,39.624252,40.343815,41.04091,41.71759,42.377014,43.01582,43.637344,44.24248,44.832058,45.406834" />
+      <row value="30.814436,31.871002,32.879177,33.843586,34.767944,35.65524,36.509144,37.314167,38.108456,38.87613,39.619034,40.33873,41.03595,41.712753,42.37229,43.011204,43.632828,44.238064,44.827732,45.40259" />
+      <row value="30.8069,31.86378,32.87224,33.836906,34.761494,35.649006,36.50311,37.308308,38.102768,38.870598,39.61365,40.33349,41.030838,41.707764,42.36742,43.006443,43.628174,44.233505,44.82327,45.39822" />
+    </incident_angle>
+  </tie-point-grids>
+</Metadata>
