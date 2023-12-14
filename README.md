@@ -15,11 +15,18 @@ Ship Detection on Synthetic Aperture Radar (SAR) Images using amplitude and phas
 - **Format**:  Each image having dimensions of up to 500×350 pixels.
 - **Polarizations**:  Mix of polarization modes, including HH, HV, VV, and VH.
 - **Ship Instances**: 2358 ship instances, labeled with rotatable (RBox) and horizontal bounding boxes (BBox).
-- **Colour Depth**: .jpeg format, color depth of 24 bits.
+- **Colour Depth**: .jpeg format, color depth of 24 bits.  
 
+### OpenSARShip 
+- **Content**: Sentienl-1 interferometric wide (IW) ground range detected (GRD) products and Sentienl-1 interferometric wide (IW) single look complex (SLC) products.
+- **Format**:  For each Sentinel-1 SAR image, four subfolders provide four formats of ship chips - Original data, calibrated data, visualized data in pseudo-color, and visualized data in
+grey scale.
+- **Polarizations**:  VV and VH.  
+  
 ## Repository Structure
 - [Amplitude_Phase](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/Amplitude_Phase): Contains data and file informations used for amplitude and phase data detection  
-- [RGB](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/RGB): Contains data and file informations used for RGB data detection.  
+- [RGB](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/RGB): Contains data and file informations used for RGB data detection.
+- [Classification](https://github.com/Zisuan/SAR_Ship_Detection/tree/main/Classification): Contains data and file informations used for Ships Classification.
 The scripts used in the project are located in the Scripts folders found in each folder.  
 Datasets and annotations utilized in the project are located in other folders.  
 
